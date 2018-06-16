@@ -81,5 +81,38 @@ h2, h4 {
     justify-content: center;
     align-items: center;
 
-
   }
+
+  /* Section 2. Tea */
+    #tea {
+      width: 1000px;
+      display: flex;
+      flex-flow: column;
+      margin-top: 70px;
+
+    }
+
+    .tea-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+
+
+    }
+
+    .tea-item {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .tea-img {
+      height: 200px;
+      width: 300px;
+      margin: 10px 15px;
+    }
+
+    .description {
+      text-align: center;
+      
+    }
