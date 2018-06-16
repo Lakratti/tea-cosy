@@ -1,0 +1,85 @@
+/* remove all default margin and padding for every object on the page */
+/* * { */
+/* margin: 0; */
+/* padding: 0; */
+/* } */
+
+
+/* General styles */
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  }
+
+.page {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: seashell;
+  padding: 15px;
+  }
+
+/* Mutual Section Styles */
+
+.content {
+  background-color: black;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+  /* Section 1. Our Mission */
+  #our-mission {
+
+  }
+
+  #img-mission {
+    background-image: url(./../images/img-mission-background.jpg);
+    /* background-size: 1200px 700px; */
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
